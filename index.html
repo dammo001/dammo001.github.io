@@ -34,8 +34,8 @@
     <script>
 
       var canvasEl = document.getElementById("game-canvas");
-      canvasEl.height = window.innerHeight-200;
-      canvasEl.width = window.innerWidth-200;
+      canvasEl.height = window.innerHeight;
+      canvasEl.width = window.innerWidth;
       var newGame = new Asteroids.menuView(canvasEl, canvasEl.height, canvasEl.width)
       newGame.start()
     </script>
