@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="./css/asteroids.css">
   
   </head>
-  <body>
+  <body background="./assets/background_space.jpg">
     <div class="container"> 
 
       <canvas width="795" height="400" id="game-canvas">
@@ -16,7 +16,8 @@
       <audio id="ship-death" src="./sounds/ship_death.wav" style="display: none;"></audio>
       <audio id="bg-audio" src="./sounds/Androids.wav" style="display: none;"></audio>
     </div>
-    <script src="vendor/jquery-2.1.1.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="lib/util.js"></script> 
     <script src="lib/game.js"></script> 
     <script src="lib/gameview.js"></script>
@@ -34,7 +35,7 @@
 
       var canvasEl = document.getElementById("game-canvas");
       canvasEl.height = window.innerHeight-200;
-      canvasEl.width = window.innerWidth-100;
+      canvasEl.width = window.innerWidth-200;
       var newGame = new Asteroids.menuView(canvasEl, canvasEl.height, canvasEl.width)
       newGame.start()
     </script>
