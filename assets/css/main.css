@@ -2301,6 +2301,10 @@
 			display: block;
 		}
 
+		#picture-holder{
+			height: 340px;
+		}
+
 		.image.left {
 			float: left;
 			padding: 0 1.5em 1em 0;
@@ -2334,7 +2338,8 @@
 		.image-profile {
 			position: relative;
 			left: 40%;
-			bottom: 70px;
+
+			bottom: 50px;
 		}
 
 /* List */
