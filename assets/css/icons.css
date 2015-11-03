@@ -11,3 +11,7 @@ ul.major-icons {
 	width: 100%;
 }
 
+.title-text { 
+	text-shadow: 1px 1px 10px gray;
+}
+
